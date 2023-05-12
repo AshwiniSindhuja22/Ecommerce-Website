@@ -7,11 +7,11 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class CustomerServiceService {
-  private createCustomerUrl="http://localhost:8082/api/createCustomer";
-  private customerssList="http://localhost:8082/api/getAllCustomer";
-  private updateCustomerUrl="http://localhost:8082/api/updateCustomer";
-  private getCustomerById="http://localhost:8082/api/getCustomerById";
-  private deleteCustomerUrl="http://localhost:8082/api/deletecustomer";
+  private createCustomerUrl="http://localhost:8060/api/createCustomer";
+  private customerssList="http://localhost:8060/api/getAllCustomer";
+  private updateCustomerUrl="http://localhost:8060/api/updateCustomer";
+  private getCustomerById="http://localhost:8060/api/getCustomerById";
+  private deleteCustomerUrl="http://localhost:8060/api/deletecustomer";
  
   
 
