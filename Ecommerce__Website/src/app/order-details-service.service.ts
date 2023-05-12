@@ -9,10 +9,10 @@ import { Orders } from './orders';
   providedIn: 'root'
 })
 export class OrderDetailsServiceService {
-  private orderProductUrl="http://localhost:8082/orderProduct";
-  private getOrdersById="http://localhost:8082/getOrdersByCustomerId";
-  private getOrdersUrl="http://localhost:8082/getAllOrders";
-  private cancelProductUrl="http://localhost:8082/cancelOrder";
+  private orderProductUrl="http://localhost:8060/orderProduct";
+  private getOrdersById="http://localhost:8060/getOrdersByCustomerId";
+  private getOrdersUrl="http://localhost:8060/getAllOrders";
+  private cancelProductUrl="http://localhost:8060/cancelOrder";
 
 
   constructor(private httpClient:HttpClient) { }
