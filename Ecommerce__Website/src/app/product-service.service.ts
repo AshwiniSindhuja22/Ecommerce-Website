@@ -10,13 +10,13 @@ import { AssignmentProductDateslot } from './assignment-product-dateslot';
 })
 export class ProductServiceService {
   
-  private APIs="http://localhost:8082/api/";
-  private assignment="http://localhost:8082/api/assignProductToDateslot";
-  private searchProductUrl="http://localhost:8082/api/searchProduct";
-  private searchProductByNameUrl="http://localhost:8082/api/searchProductByName";
-  private updateproductUrl="http://localhost:8082/api/updateProduct";
-  private deleteproductUrl="http://localhost:8082/api/deleteProduct";
-  private getProuctByProductIdUrl="http://localhost:8082/api/getProductById";
+  private APIs="http://localhost:8060/api/";
+  private assignment="http://localhost:8060/api/assignProductToDateslot";
+  private searchProductUrl="http://localhost:8060/api/searchProduct";
+  private searchProductByNameUrl="http://localhost:8060/api/searchProductByName";
+  private updateproductUrl="http://localhost:8060/api/updateProduct";
+  private deleteproductUrl="http://localhost:8060/api/deleteProduct";
+  private getProuctByProductIdUrl="http://localhost:8060/api/getProductById";
 
   constructor(private httpClient:HttpClient) { }
   createProduct(product:Product):Observable<Object>
