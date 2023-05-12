@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class DateslotServiceService {
-  private APIs="http://localhost:8082/";
+  private APIs="http://localhost:8060/";
 
   constructor(private httpClient:HttpClient) { }
 
